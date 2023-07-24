@@ -1,0 +1,45 @@
+name: attendance_system
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  http: ^0.13.5
+  cached_network_image: ^3.2.3
+  google_fonts: ^2.0.0
+  flutter_svg: ^1.1.5
+  fl_chart: ^0.61.0
+  camera: ^0.10.3+2    
+  tflite: ^1.1.2
+  sliding_up_panel: ^2.0.0+1
+  fade_shimmer: ^2.0.0
+  connectivity_plus: ^3.0.3
+  introduction_screen: ^3.1.4
+  shared_preferences: ^2.1.0
+  lottie: ^2.3.1
+  device_apps: ^2.2.0
+  image_picker: ^0.8.5+3
+  image: ^3.2.0
+  intl: ^0.18.1
+
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/Icons/
+    - assets/images/
+    - assets/json/
+    - assets/x/
+    
+
